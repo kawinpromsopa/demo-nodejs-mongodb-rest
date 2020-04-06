@@ -1,3 +1,10 @@
+# How Automated work.
+
+- Action:
+    - Dockerfile: Build an application to contains on Docker container image.
+    - Jenkinsfile: The condition when has any commits on `master` branch, It will trigger to to jenkins server for `Build`, `Push`, `Deploy`.
+    - Jenkinsfile.config: This is an example to know about `Stages` of jenkins automated working.
+
 # NodeJS-MongoDB-Demo
 
 This is an example NodeJS application that works with MongoDB on Clever Cloud.
